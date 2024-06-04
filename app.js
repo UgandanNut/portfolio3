@@ -34,10 +34,12 @@ const navtxt = document.getElementById("navtxt");
 const navtxt2 = document.getElementById("navtxt2");
 const navtxt3 = document.getElementById("navtxt3");
 const navtxt4 = document.getElementById("navtxt4");
+const contactform = document.getElementById("contactform");
 project.style.display = "none";
 closemenu.style.display = "none";
+contactform.style.display = "none";
 
-const contactform = document.getElementById("contactform");
+
 
 
 
@@ -103,7 +105,7 @@ function bar2clickmob(){
     project.style.display = "block";
     body.style.height = "2000px";
     closemenu.style.display = "block";
-    
+    contactform.style.display = "none";
 }
 
 bar2mob.addEventListener("mouseover", function(){
